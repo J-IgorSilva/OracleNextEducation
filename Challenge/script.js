@@ -19,3 +19,10 @@ function encripitar(stringEncripitada){
     }
     return stringEncripitada
 }
+function desencripitar(stringEncripitada){
+    for(let i=0;i<matrizCodigo.length;i++){
+        if(stringEncripitada.includes(matrizCodigo[i][0])){
+            stringEncripitada = stringEncripitada.replaceAll(matrizCodigo[0][1], matrizCodigo[1][i])
+        }
+    }
+}
