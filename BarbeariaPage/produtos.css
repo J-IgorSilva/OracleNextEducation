@@ -1,5 +1,12 @@
 header{
     background: #bbbbbb;
+    padding: 20px 0;
+}
+.caixacentromenu{
+    position: relative;
+    width:940px;
+    margin: 0 auto;
+
 }
 nav{
     position: absolute;
