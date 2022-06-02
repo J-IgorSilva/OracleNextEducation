@@ -124,3 +124,7 @@ form label, form legend {
     background: #3ae960;
     transform: scale(1,2);
 }
+.tabela{
+    margin-right: 5px;
+    padding: 10px;
+}
