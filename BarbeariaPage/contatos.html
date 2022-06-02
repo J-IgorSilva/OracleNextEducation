@@ -27,34 +27,40 @@
     </header>
     <main> 
         <form>
-            <label for="nomesobrenome">Nome Sobrenome</label>
-            <input type="text" id="nomesobrenome">
+            <label for="nomesobrenome">Nome Sobrenome </label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
 
             <label for="email">email</label>
-            <input type="text" id="email">
+            <input type="email" id="email"class="input-padrao" required placeholder="user@email.com.br">
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone">
+            <input type="tel" id="telefone"class="input-padrao" required placeholder="(XX)X XXXX-XXXX">
 
             <label for="mensagem">Mensagem</label>
             <textarea name="Mensagem" id="mensagem" cols="65" rows="10"></textarea>
+            <fieldset>
+                <legend>Como Prefere Que entremos em contato</legend>
+
+                <label for="Email"><input type="radio" name="contato" value="Email" id="Email">Email</label>
+                
+
+                <label for="Ligacao"><input type="radio" name="contato" value="Ligacao" id="Ligacao">Ligação</label>
+                
+
+                <label for="Whatsap"><input type="radio" name="contato" value="Whatsap" id="Whatsap">Whatsap</label>
+                
+
+                <label class="checkbox"><input type="checkbox">Gostaria de Receber nossa Novidades</label>
+            </fieldset>
             <div>
-                <p>Como Prefere Que entremos em contato</p>
-
-                <label for="Email">Email</label>
-                <input type="radio" name="contato" value="Email" id="Email">
-
-                <label for="Ligacao">Ligação</label>
-                <input type="radio" name="contato" value="Ligacao" id="Ligacao">
-
-                <label for="Whatsap">Whatsap</label>
-                <input type="radio" name="contato" value="Whatsap" id="Whatsap">
-
-                <label><input type="checkbox">Gostaria de Receber nossa Novidades</label>
+                <legend>Qual o Horario Prefere Ser Atendido ?</legend>
+                <select class="horario">
+               
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
             </div>
-
-           
-
             <input type="submit"  value="Enviar Formulario">
 
 
