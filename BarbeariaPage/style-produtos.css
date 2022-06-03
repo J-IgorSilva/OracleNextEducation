@@ -124,7 +124,15 @@ form label, form legend {
     background: #3ae960;
     transform: scale(1,2);
 }
-.tabela{
-    margin-right: 5px;
-    padding: 10px;
+thead{
+    color: #FFFFFF;
+    font: bold;
+    background: #0e0900;
+}
+table{
+    margin: 20px 0px;
+}
+td, th{
+    border: 1px solid #000000;
+    padding: 15px 8px ;
 }
