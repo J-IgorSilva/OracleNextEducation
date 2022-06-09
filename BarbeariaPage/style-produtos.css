@@ -136,3 +136,28 @@ td, th{
     border: 1px solid #000000;
     padding: 15px 8px ;
 }
+/* css da pagina principal */
+.banner{
+width: 100%;
+}
+
+.titulo-principal,h3{
+	text-align: center;
+    font-size: 1cm;
+    margin: 0 0 1cm;
+}
+.principal p{
+    margin: 0 0 1cm;
+
+}
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em{
+    font-style:italic;
+}
+
+.beneficios{
+    margin: 0%;
+}
