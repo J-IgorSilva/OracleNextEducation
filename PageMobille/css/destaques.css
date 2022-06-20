@@ -1,4 +1,12 @@
 .destaques{
-    background-color
-    padding
+    background: color #dfe3e5;
+    padding-top: 2,5rem;
+    padding-bottom: 2rem;
+}
+
+.destaques__titulo{
+    color:  #4F4C4C;
+    font-weight: 700;
+    font-size: 1,5rem;
+    font-family: 'Open Sans', sans-serif;
 }
