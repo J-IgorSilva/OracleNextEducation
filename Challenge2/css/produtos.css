@@ -57,7 +57,7 @@
     font-size: 1rem;
     letter-spacing: 1.2px;
 }
-.produtos_itens{
+.produtos_itens:hover{
     margin: 10px;
 }
 .images_produto {
