@@ -5,9 +5,13 @@
     border: 1.5px solid var(--botoes);
     width: 200px;
     font-size: .9rem;
+    text-decoration: none;
+    
 }
 .btn_header:hover {
     color: white;
+    text-decoration: none;
+    
 }
 .section_produtos {
     display: flex;
@@ -33,7 +37,7 @@
     margin: 10px 0;
     border: none;
 }
-/*INICIO HOME*/
+/*HOME*/
 .container {
     width: 90%;
     display: flex;
